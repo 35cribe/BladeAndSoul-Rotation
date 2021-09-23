@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="timers">
+      <UniqueIdentifier>{0ce6eb99-693a-41e2-90a9-7bbea7ff9735}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="!main.cpp">
@@ -22,6 +25,15 @@
   <ItemGroup>
     <ClInclude Include="shared_defines.h">
       <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="base_timer.h">
+      <Filter>timers</Filter>
+    </ClInclude>
+    <ClInclude Include="execution_time.h">
+      <Filter>timers</Filter>
+    </ClInclude>
+    <ClInclude Include="step_timer.h">
+      <Filter>timers</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
